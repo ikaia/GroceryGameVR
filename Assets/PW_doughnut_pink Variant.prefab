@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4883000512914791192
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_Name
+      value: PW_doughnut_pink Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.056862116
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.70522165
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.588818
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+--- !u!1 &4883000512914890168 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+  m_PrefabInstance: {fileID: 4883000512914791192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &7280687690475273091
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883000512914890168}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &5026263533699856875
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883000512914890168}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.10260426, z: 0.29279983}
+  m_Center: {x: 0, y: 0.051531013, z: 0.000000007450581}
+--- !u!114 &-2235323672774533659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4883000512914890168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9f458ff6553741b6163f7fa985202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  male: {fileID: 4883000512914890168}
+  drinkPrefab: {fileID: 2991501061109246803, guid: 70026871fc54bc84495fb8e34c28afb9, type: 3}
+  peoplePrefab: {fileID: 4403157550164153707, guid: a5f8b3846661fda408457288ebda04aa, type: 3}
+  cakePrefab: {fileID: 6342727430748239132, guid: 7f98a35b2fd6e1a4aa1ea2552cbef408, type: 3}
+  spawnHeight: 0

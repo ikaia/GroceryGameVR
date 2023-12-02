@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ead9f458ff6553741b6163f7fa985202
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - male: {fileID: 4883000512914890168, guid: 7b6de662c45fd664cac35e7ee8095e4b, type: 3}
+  - drinkPrefab: {fileID: 2991501061109246803, guid: 70026871fc54bc84495fb8e34c28afb9, type: 3}
+  - peoplePrefab: {fileID: 4403157550164153707, guid: a5f8b3846661fda408457288ebda04aa, type: 3}
+  - cakePrefab: {fileID: 6342727430748239132, guid: 7f98a35b2fd6e1a4aa1ea2552cbef408, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
